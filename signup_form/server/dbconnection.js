@@ -19,18 +19,5 @@ mongoose.connect(process.env.MONGO_URL,{
 
 
 
-// const user1= new User({
-//     firstName:"Aniket",
-//     lastName:"Kshirsagar",
-//     email:"kshirsagaraniket1010@gmail.com",
-//     password:"as;ldkjfalsd"
-// });
-
-
-// user1.save().then((user)=>{
-//     console.log("saved user",user);
-// }).catch((err)=>{
-//     console.log("User cannot be saved!!!!",err)
-// })
 
 
